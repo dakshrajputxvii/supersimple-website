@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friends Gang</title>
+  <style>
+    body {
+        background-image: url('https://i.pinimg.com/564x/2b/50/b1/2b50b11d33a5516bd0e77e506769a32a.jpg');
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+    }
+    .friends-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    .friend-name {
+      font-size: 4rem;
+      font-weight: bold;
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(2, 0, 0, 0.5);
+      animation: fadeIn 1s ease-in-out, bounce 1s infinite alternate, colorChange 5s linear infinite;
+    }
+    .friend-name:nth-child(1) {
+      animation-delay: 0s;
+    }
+    .friend-name:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+    .friend-name:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+    .friend-name:nth-child(4) {
+      animation-delay: 0.6s;
+    }
+    .friend-name:nth-child(5) {
+      animation-delay: 0.8s;
+    }
+    .friend-name:nth-child(6) {
+      animation-delay: 1s;
+    }
+    .friend-name:nth-child(7) {
+      animation-delay: 1.2s;
+    }
+    .friend-name:nth-child(8) {
+      animation-delay: 1.4s;
+    }
+    .friend-name:nth-child(9) {
+      animation-delay: 1.6s;
+    }
+    .friend-name:nth-child(10) {
+      animation-delay: 1.8s;
+    }
+    .friend-name:nth-child(11) {
+      animation-delay: 2s;
+    }
+    .friend-name:nth-child(12) {
+      animation-delay: 2.2s;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+      40% { transform: translateY(-20px); }
+      60% { transform: translateY(-10px); }
+    }
+    @keyframes colorChange {
+      0% { color: #ff0000; }
+      20% { color: #00ff00; }
+      40% { color: #0000ff; }
+      60% { color: #ff00ff; }
+      80% { color: #00ffff; }
+      100% { color: #ff0000; }
+    }
+</style>
+  <audio autoplay loop>
+    <source src="C:\Users\shiva\Desktop\my-html-css\Tera-Yaar-Hoon-Main(musicdownload.cc).mp3" type="audio/mpeg">
+  </audio> 
+</head>
+<body>
+  <div class="friends-container">
+    <div class="friend-name">kunal</div><br>
+    <div class="friend-name">satyam</div><br>
+    <div class="friend-name">dhairya</div><br>
+    <div class="friend-name">darsan</div><br>
+    <div class="friend-name">sanyam</div><br>
+    <div class="friend-name">shile</div><br>
+    <div class="friend-name">aashish</div><br>
+    <div class="friend-name">parn</div><br>
+    <div class="friend-name">harsh</div><br>
+    <div class="friend-name">aadarsh</div><br>
+    <div class="friend-name">rishi</div><br>
+    <div class="friend-name">himanshu</div><br>
